@@ -1,0 +1,108 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  background: linear-gradient(to bottom, #e8f0ff, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+header p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.scoreboard {
+  text-align: right;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.controls select,
+.controls button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.problem {
+  background: #fff9c4;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#answer {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 60%;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+button {
+  cursor: pointer;
+}
+
+.feedback {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.wrong {
+  color: red;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+footer button {
+  background: #eef;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.solution {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #333;
+}
