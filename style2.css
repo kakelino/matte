@@ -1,0 +1,73 @@
+body {
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  text-align: center;
+  background: #f7faff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+select, button, input {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.problem-box {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  min-width: 250px;
+}
+
+#problem {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.feedback {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.wrong {
+  color: red;
+}
+
+.solution {
+  margin-top: 5px;
+  font-style: italic;
+  color: #666;
+}
+
+.stats {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
